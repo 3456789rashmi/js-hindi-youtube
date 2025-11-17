@@ -1,0 +1,10 @@
+let mydate = new Date();
+// console.log(mydate.toString());
+// console.log(mydate.toDateString());
+// console.log(mydate.toLocaleString());
+// console.log(typeof mydate);
+let myCreatedDate = new Date(2023,0,23,5,3);
+console.log(myCreatedDate.toyDateString());
+let mycreateddate = new Date("01-14-2023");
+let mytimestamp = Date.now();
+console.log(mytimestamp);
