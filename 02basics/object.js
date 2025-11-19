@@ -7,8 +7,8 @@ const Jsuser = {
     isLoggedIn : false,
     LastLoginDays : ["Monday","Saturday"]
 }
-// console.log(Jsuser.email);
-// console.log(Jsuser["email"]);
+console.log(Jsuser.email);
+console.log(Jsuser["email"]);
 // console.log(Jsuser["name"]);
 // console.log(Jsuser[mysym]);
 // Jsuser.email = "rash@gnail.com";
@@ -16,11 +16,11 @@ const Jsuser = {
 // Jsuser.email = "rashm@gmail.com";
 // // console.log(Jsuser);
 
-Jsuser.greeting = function(){
-    console.log("Hello JS user");
-}
-Jsuser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
-}
-console.log(Jsuser.greeting());
-console.log(Jsuser.greetingTwo());
+// Jsuser.greeting = function(){
+//     console.log("Hello JS user");
+// }
+// Jsuser.greetingTwo = function(){
+//     console.log(`Hello JS user, ${this.name}`);
+// }
+// console.log(Jsuser.greeting());
+// console.log(Jsuser.greetingTwo());
